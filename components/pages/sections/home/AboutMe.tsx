@@ -1,9 +1,9 @@
-import AboutCodeBlock from "@/components/CodeBlock";
+import AboutCodeBlock from "./CodeBlock";
 
 const AboutMe = () => {
   return (
     <div>
-        <div className="md:flex items-center gap-16 md:py-20">
+        <div className="md:flex items-center gap-16">
         <div className="py-4 sm:pb-0">
             <h2 className="text-3xl sm:text-4xl font-semibold my-2">About Me</h2>
             <p className="text-neutral-600 dark:text-neutral-300">

@@ -29,7 +29,7 @@ export default function AboutCodeBlock() {
       <CodeBlock
         language="json"
         filename="about-me.json"
-        highlightLines={[16]}
+        highlightLines={[2, 9, 16]}
         code={code}
       />
     </div>

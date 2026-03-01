@@ -28,7 +28,7 @@ export default function RootLayout({
     <>
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased mx-auto w-full max-w-7xl px-6 py-8`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-dvh overflow-x-hidden`}
       >
         <ThemeProvider
           attribute="class"
@@ -36,12 +36,12 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Nav />
-          <main className="pt-16">
-            <div className="mt-10">
-              {children}
-            </div>
-          </main>
+          <div className="mx-auto w-full max-w-7xl px-6">
+            <Nav />
+            <main>
+              <div>{children}</div>
+            </main>
+          </div>
         </ThemeProvider>
       </body>
     </html>

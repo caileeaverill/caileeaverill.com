@@ -7,8 +7,12 @@ const page = () => {
   return (
     <div className="relative w-full">
       <Hero />
-      <AboutMe />
-      <HomeCaseStudies />
+      <div className="pb-32">
+        <AboutMe />
+      </div>
+      <div>
+        <HomeCaseStudies />
+      </div>
     </div>
   )
 }

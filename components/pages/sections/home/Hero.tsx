@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 export default function HeroSectionOne() {
   return (
-    <div className="relative mx-auto flex max-w-7xl flex-col items-center justify-center">
+    <div className="min-h-screen relative mx-auto flex max-w-7xl flex-col items-center justify-center">
       
       <div className="px-4 py-10 md:py-20">
         <h1 className="relative z-10 mx-auto max-w-4xl text-center text-3xl font-bold text-black md:text-4xl lg:text-7xl dark:text-white">

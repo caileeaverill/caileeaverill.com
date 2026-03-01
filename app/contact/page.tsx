@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const page = () => {
   return (
-    <div className="lg:py-30">
+    <div className="flex flex-col items-center justify-center min-h-screen overflow-hidden">
       <TextFlip />
       <div>
         <div className="flex gap-6 justify-center my-6">
